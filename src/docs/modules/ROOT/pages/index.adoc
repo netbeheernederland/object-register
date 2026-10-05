@@ -3,9 +3,9 @@
 Maintainer::
     mailto:teamsemantiek@netbeheernederland.nl[Team Semantiek] (Netbeheer Nederland)
 Version::
-    1.6
+    1.7
 Release date::
-    2026-10-02
+    2026-10-05
 
 The _NBNL Object Register_ is a predefined, controlled set of permissible
 values used to ensure consistency and interoperability in data exchange,
@@ -76,6 +76,12 @@ within the scope of the object register.
 [cols="7,2,4,2,2",width=100%]
 |===
 |mRID |Name |Description |Type |Issuer
+
+|98b04fac-0fe4-4e07-b384-3dfee6a6b79c
+|AC-0-23
+|Base voltage 0.23 kV
+|https://begrippen.netbeheernederland.nl/energiesysteembeheer/nl/page/laagspanning[Definition]
+|Netbeheer Nederland
 
 |b7482b2f-bcb8-46e9-99b1-e0cd09f3c205
 |AC-0-4

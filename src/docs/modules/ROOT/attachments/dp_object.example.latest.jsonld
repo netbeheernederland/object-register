@@ -11,10 +11,10 @@
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
-  "@id": "urn:uuid:98210ff0-211e-45ec-ad60-d44b5e18196f",
+  "@id": "urn:uuid:141a0089-fa7b-49f7-9027-a3e4714c312d",
   "dcterms:title": "NBNL Object Register",
   "dcterms:issued": {
-    "@value": "2026-10-02T00:00:00Z",
+    "@value": "2026-10-05T00:00:00Z",
     "@type": "xsd:dateTime"
   },
   "dcterms:publisher": {
@@ -23,7 +23,7 @@
   },
   "dcterms:conformsTo": [
     {
-      "@id": "https://modellen.netbeheernederland.nl/object-register/1.6"
+      "@id": "https://modellen.netbeheernederland.nl/object-register/1.7"
     }
   ],
   "@graph": [
@@ -104,6 +104,17 @@
       },
       "cim:IdentifiedObject.mRID": "21ba2c21-33a7-487d-9618-789334963e62",
       "cim:IdentifiedObject.name": "Westland Infra Netbeheer B.V."
+    },
+
+    {
+      "@id": "urn:uuid:98b04fac-0fe4-4e07-b384-3dfee6a6b79c",
+      "@type": "cim:BaseVoltage",
+      "cim:BaseVoltage.nominalVoltage": {
+        "@id": "urn:uuid:a6731e46-2c76-4d7e-bf91-e702989cf7f1"
+      },
+      "cim:IdentifiedObject.description": "Base voltage 0.23 kV",
+      "cim:IdentifiedObject.mRID": "98b04fac-0fe4-4e07-b384-3dfee6a6b79c",
+      "cim:IdentifiedObject.name": "AC-0-23"
     },
     {
       "@id": "urn:uuid:b7482b2f-bcb8-46e9-99b1-e0cd09f3c205",
@@ -284,6 +295,20 @@
       "cim:IdentifiedObject.description": "Base voltage defined by ENTSO-E 380 kV",
       "cim:IdentifiedObject.mRID": "b88e6bde11264fea83355102cd4f182c",
       "cim:IdentifiedObject.name": "AC-380"
+    },
+    {
+      "@id": "urn:uuid:a6731e46-2c76-4d7e-bf91-e702989cf7f1",
+      "@type": "cim:Voltage",
+      "cim:Voltage.multiplier": {
+        "@id": "cim:UnitMultiplier.k"
+      },
+      "cim:Voltage.unit": {
+        "@id": "cim:UnitSymbol.V"
+      },
+      "cim:Voltage.value": {
+        "@value": 0.23,
+        "@type": "xsd:float"
+      }
     },
     {
       "@id": "urn:uuid:1de33b4b-052e-45cb-acac-8e887fb8af18",
