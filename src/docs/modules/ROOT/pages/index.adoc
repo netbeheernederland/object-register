@@ -3,9 +3,9 @@
 Maintainer::
     mailto:teamsemantiek@netbeheernederland.nl[Team Semantiek] (Netbeheer Nederland)
 Version::
-    1.7
+    1.8
 Release date::
-    2026-10-05
+    2026-10-28
 
 The _NBNL Object Register_ is a predefined, controlled set of permissible
 values used to ensure consistency and interoperability in data exchange,
@@ -192,11 +192,27 @@ within the scope of the object register.
 |Netbeheer Nederland
 |===
 
+== cim:CoordinateSystem
+[cols="7,2,4,2,2",width=100%]
+|===
+|mRID |Name |Description |Type |Issuer
+
+|8dabcb33-6555-4ad8-a7ba-f1fb162ae98c
+|WGS84
+|urn:ogc:def:crs:EPSG::4.3.2.6
+|https://epsg.org/crs_4326/WGS-84.html[Definition]
+|Netbeheer Nederland
+|===
+
+
+
 == Additional artifacts
 * xref::attachment$dp_object.example.latest.jsonld[NBNL Object Register JSON-LD source latest]
-* xref::attachment$dp_object.example.1_6.jsonld[NBNL Object Register JSON-LD source V1.6]
+* xref::attachment$dp_object.example.1_8.jsonld[NBNL Object Register JSON-LD source V1.8]
 
 == Archive
+* xref::attachment$dp_object.example.1_7.jsonld[NBNL Object Register JSON-LD source V1.7]
+* xref::attachment$dp_object.example.1_6.jsonld[NBNL Object Register JSON-LD source V1.6]
 * xref::attachment$dp_object.example.1_5.jsonld[NBNL Object Register JSON-LD source V1.5]
 * xref::attachment$dp_object.example.1_4.jsonld[NBNL Object Register JSON-LD source V1.4]
 * xref::attachment$dp_object.example.1_3.jsonld[NBNL Object Register JSON-LD source V1.3]

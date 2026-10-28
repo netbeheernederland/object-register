@@ -11,10 +11,10 @@
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
-  "@id": "urn:uuid:141a0089-fa7b-49f7-9027-a3e4714c312d",
+  "@id": "urn:uuid:3ed60b10-4c15-47e0-b9fb-3fcadc2c1632",
   "dcterms:title": "NBNL Object Register",
   "dcterms:issued": {
-    "@value": "2026-10-05T00:00:00Z",
+    "@value": "2026-10-28T00:00:00Z",
     "@type": "xsd:dateTime"
   },
   "dcterms:publisher": {
@@ -23,7 +23,7 @@
   },
   "dcterms:conformsTo": [
     {
-      "@id": "https://modellen.netbeheernederland.nl/object-register/1.7"
+      "@id": "https://modellen.netbeheernederland.nl/object-register/1.8"
     }
   ],
   "@graph": [
@@ -561,6 +561,15 @@
         "@value": 380.0,
         "@type": "xsd:float"
       }
+    },
+    {
+      "@id": "urn:uuid:8dabcb33-6555-4ad8-a7ba-f1fb162ae98c",
+      "@type": "cim:CoordinateSystem",
+      "cim:CoordinateSystem.crsUrn": {
+         "@id": "urn:ogc:def:crs:EPSG::4.3.2.6"
+      },
+      "cim:IdentifiedObject.mRID": "8dabcb33-6555-4ad8-a7ba-f1fb162ae98c",
+      "cim:IdentifiedObject.name": "WGS84"
     }
   ]
 }
